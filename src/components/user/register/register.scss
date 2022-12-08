@@ -1,0 +1,46 @@
+.register{
+    width: 30%;
+    margin: auto;
+    &-main{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #06cbfc;
+        padding: 0 30px;
+        border-radius: 10px;
+        input{
+            height: 50px;
+            border-radius: 10px;
+            border: 1px solid #06cbfc;
+            background-color: rgba(255, 255, 255, 0.5);
+            font-size: 16px;
+        }
+        label{
+            font-size: 20px;
+            font-weight: bold;
+            margin:15px 0 5px 0
+        }
+        button{
+            height: 50px;
+            border-radius: 10px;
+            border: 1px solid #06cbfc;
+            background-color: #06cbfc;
+            color: white;
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            border: 1px solid #06cbfc;
+            background-color: #06cbfc;
+            color: white;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

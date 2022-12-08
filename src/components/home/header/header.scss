@@ -1,0 +1,48 @@
+.header{
+    &-main{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &_nav{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            a{
+                font-size: 23px;
+                text-decoration: none;
+                color: black;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+        }
+        &-user{
+            button{
+                width: 130px;
+                font-size: 16px;
+                height: 40px;
+                background-color: black;
+                color: white;
+
+            }
+            .users{
+                display:flex;
+                align-items: center;
+                img{
+                    width: 30px;
+                    height: 30px;
+                    object-fit: cover;
+                    object-position: center;
+                    border-radius: 50%;
+                }
+                p{
+                    font-size: 20px;
+                    margin-right: 10px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
